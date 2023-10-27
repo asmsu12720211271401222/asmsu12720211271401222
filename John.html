@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicWave - Your Ultimate Music Destination</title>
+    <style>
+        /* Reset some default styles for better consistency */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff; /* White background */
+            color: #000; /* Black text color */
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #ffffff; /* Red header background */
+            color: #fff; /* White text color */
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            padding-left: 70px;
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        .menu {
+            display: flex;
+            gap: 40px;
+            margin-right: 70px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #ffcc00; /* Yellow text color on hover */
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            background-image: url('dark.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* White text color */
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: -7px;
+            color: #ffcc00;
+        }
+
+        .hero .description {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .primary-button {
+            display: inline-block;
+            padding: 12px 32px;
+            font-size: 1.5rem;
+            font-weight: bolder;
+            text-align: center;
+            text-decoration: none;
+            background-color: #ffffff; /* Yellow button background */
+            color: #000; /* Black button text color */
+            border-radius: 40px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .primary-button:hover {
+            background-color: #ffe137; /* Red button background on hover */
+        }
+
+        /* Card Styles */
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            width: 300px;
+            padding: 20px;
+            background-color: #ffcc00; /* Yellow card background */
+            color: #000; /* Black card text color */
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .card:hover {
+            background-color: #ff0000; /* Red card background on hover */
+            color: #fff; /* White card text color on hover */
+        }
+
+        .card h3 {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">MusicWave</a>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Discover</a>
+                <a href="#">Artist</a>
+                <a href="#">Albums</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to MusicWave</h1>
+            <p class="description">Explore our vast collection of songs, albums, and artists from various genres.</p>
+            <a href="#" class="primary-button">Start Listening</a>
+        </section>
+
+        <div class="container">
+            <h2>Featured Playlists</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Pop Hits</h3>
+                    <p>Listen to the latest and greatest pop hits. Enjoy a mix of chart-toppers and all-time favorites.</p>
+                </div>
+                <div class="card">
+                    <h3>Rock Classics</h3>
+                    <p>Rock out to the timeless classics. Rediscover the legendary songs that defined an era.</p>
+                </div>
+                <div class="card">
+                    <h3>Indie Vibes</h3>
+                    <p>Discover unique indie music vibes. Dive into the indie scene with emerging artists and hidden gems.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 MusicWave. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
